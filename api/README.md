@@ -37,7 +37,7 @@
 5. Install dependencies
 
    ```bash
-   poetry env use 3.10
+   poetry env use 3.12
    poetry install
    ```
 
