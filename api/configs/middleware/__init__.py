@@ -10,7 +10,6 @@ from configs.middleware.storage.amazon_s3_storage_config import S3StorageConfig
 from configs.middleware.storage.azure_blob_storage_config import AzureBlobStorageConfig
 from configs.middleware.storage.google_cloud_storage_config import GoogleCloudStorageConfig
 from configs.middleware.storage.oci_storage_config import OCIStorageConfig
-from configs.middleware.storage.tencent_cos_storage_config import TencentCloudCOSStorageConfig
 from configs.middleware.vdb.analyticdb_config import AnalyticdbConfig
 from configs.middleware.vdb.chroma_config import ChromaConfig
 from configs.middleware.vdb.milvus_config import MilvusConfig
@@ -21,7 +20,6 @@ from configs.middleware.vdb.pgvector_config import PGVectorConfig
 from configs.middleware.vdb.pgvectors_config import PGVectoRSConfig
 from configs.middleware.vdb.qdrant_config import QdrantConfig
 from configs.middleware.vdb.relyt_config import RelytConfig
-from configs.middleware.vdb.tencent_vector_config import TencentVectorDBConfig
 from configs.middleware.vdb.tidb_vector_config import TiDBVectorConfig
 from configs.middleware.vdb.weaviate_config import WeaviateConfig
 
@@ -180,7 +178,6 @@ class MiddlewareConfig(
     AliyunOSSStorageConfig,
     AzureBlobStorageConfig,
     GoogleCloudStorageConfig,
-    TencentCloudCOSStorageConfig,
     S3StorageConfig,
     OCIStorageConfig,
 
@@ -196,7 +193,6 @@ class MiddlewareConfig(
     PGVectoRSConfig,
     QdrantConfig,
     RelytConfig,
-    TencentVectorDBConfig,
     TiDBVectorConfig,
     WeaviateConfig,
 ):
